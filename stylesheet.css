@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    
+  }
+
+li{
+    list-style: none;
+}
+
+.clear{
+  clear: left;
+}
+  .header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(81, 147, 160, 0.9);
+    
+    position:fixed;
+    top: 0;
+    
+   z-index:10;
+   
+  }
+  
+  .header-logo {
+    width: 124px;
+    margin-top: 20px;
+    float: left;
+  }
+
+  
+
+  .header-list li{
+    display: inline-block;
+    width: 124px;
+    margin-top: 20px;
+  }
+
+.top-wrapper {
+    height: auto;
+    width: 100%;
+    padding: 180px 0 100px 0;
+    /*background-image: url(./garally/background.jpeg);入れるかどうか確認*/
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  .top-wrapper p {
+    opacity: 0.7;
+  }
+
+  .gallery-wrapper {
+    height: 350px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  h2{
+    border-bottom: 10px solid gray;
+  }
+  .gallery-contenier{
+    height: auto;
+  }
+
+  .gallery-contents{
+    float: left;
+    width: 20%;
+    height: 400px;
+  }
+ .gallery-contents img{
+     height: 90%;
+     width: 90%;
+     background-color: cadetblue;
+ }
+ .order-wrapper{
+   padding-top:10px;
+   ;
+ }
+
+ h3{
+    border-bottom: 10px solid gray;
+  } 
