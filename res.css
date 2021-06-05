@@ -9,7 +9,7 @@
       width:100%;
     }
     .gallery-contenier{
-      -ms-flex-direction: column;
+      flex-direction: column;
     }
     .gallery-contents{
       margin: 0 auto;
